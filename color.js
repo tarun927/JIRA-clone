@@ -42,7 +42,7 @@ for(let i=0;i<closebtnarr.length;i++){
 function addTicket(){
     crossBtnClick() ;
     var boxes = document.querySelector(".wrapper main");
-    var puranaHTML = boxes.innerHTML;
+    var puranaHTML = boxes.innerHTML;  //selecting inner html of main area 
     var boxContent = document.getElementById("box-content");
     var title = document.getElementById("title");
     boxes.innerHTML = puranaHTML + `
